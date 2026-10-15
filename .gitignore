@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment (referenced in README, do not track)
+.venv/
+venv/
+
+# OS / editor
+Thumbs.db
+.DS_Store
