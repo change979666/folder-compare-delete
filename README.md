@@ -45,8 +45,6 @@ python -m pip install "PySide6>=6.6"
 python gui_app.py
 ```
 
-
-
 ## 使用指南
 
 ### 图形界面使用
@@ -368,10 +366,15 @@ result = execute_plan(
 - ✅ 智能识别权限/占用错误并给出建议
 - ✅ 预览表格显示详细操作计划
 
-## 许可证
+## License & Attribution / 许可与来源
 
-当前仓库未包含独立的 `LICENSE` 文件。在添加明确许可证之前，请勿将仓库理解为已经授予 MIT 许可。
+Original project code authored for this repository is released under the MIT License; see [LICENSE](./LICENSE).
 
+When reusing or redistributing a substantial portion, retain the LICENSE and its copyright notice. The copyright notice includes this original source URL: https://github.com/change979666/folder-compare-delete. Please keep the source link visible in your redistributed source or project documentation.
+
+This license applies only to original material that the repository maintainer has the right to license. Third-party libraries, vendor code, platform SDKs, trademarks, screenshots, icons, fonts, and other external assets remain subject to their respective licenses and terms. Review those terms before reuse.
+
+**Project status:** personal/archived project, shared as-is. Maintenance, compatibility, and production readiness are not guaranteed.
 ## 支持
 
 遇到问题或有建议？欢迎反馈！
