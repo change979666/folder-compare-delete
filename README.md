@@ -29,30 +29,23 @@
 
 ### 安装依赖
 
-项目已配置 Python 虚拟环境，包含所需依赖：
+### 创建虚拟环境（Windows）
 
 ```powershell
-# 激活虚拟环境（Windows）
-H:/cursor/批量对比删除/.venv/Scripts/Activate.ps1
-
-# 或直接运行（无需激活）
-H:/cursor/批量对比删除/.venv/Scripts/python.exe gui_app.py
-```
-
-如需手动安装依赖：
-```bash
-pip install PySide6>=6.6
-```
-
-### 启动图形界面
-
-```powershell
-# 方式 1：直接运行
-H:/cursor/批量对比删除/.venv/Scripts/python.exe gui_app.py
-
-# 方式 2：激活环境后运行
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install "PySide6>=6.6"
 python gui_app.py
 ```
+
+如果不想使用虚拟环境，也可以先安装依赖，再运行：
+
+```powershell
+python -m pip install "PySide6>=6.6"
+python gui_app.py
+```
+
+
 
 ## 使用指南
 
