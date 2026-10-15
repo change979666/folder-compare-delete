@@ -370,7 +370,7 @@ result = execute_plan(
 
 ## 许可证
 
-MIT License
+当前仓库未包含独立的 `LICENSE` 文件。在添加明确许可证之前，请勿将仓库理解为已经授予 MIT 许可。
 
 ## 支持
 
